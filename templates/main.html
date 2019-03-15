@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- HTML Codes by Quackit.com -->
+<title>Trovasys Inc</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Connecting to the future!">
+<style>
+body {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
+h1{font-family:Arial, sans-serif;color:#000000;background-color:#ffffff;}
+p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
+</style>
+</head>
+<body>
+<div class="container">
+{%block dairycontent%}
+
+{%endblock%}
+
+</div>
+
+<h1>Trovasys Inc</h1>
+<p>I was having a very bad day. Then toblerone happened. So I founded Trovasys and went out to buy a candle.</p>
+<ul>
+	<li><a href="{{ url_for('poultry') }}">Poultry</a>
+	<li><a href="{{ url_for('dairy') }}">Dairy</a>
+</ul>
+<div class="container">
+{%block content%}
+
+{%endblock%}
+
+</div>
+
+</body>
+</html>
