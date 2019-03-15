@@ -16,4 +16,4 @@ def dairy():
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(host='https://cowtrac.herokuapp.com/', port='80', debug=True)
